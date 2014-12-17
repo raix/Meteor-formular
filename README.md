@@ -19,7 +19,7 @@ var formDescriptor = {
   'error': function(form) {
     // Validation
     if (!form.name || !form.name.length) return 'Name may not be empty';
-    if (!form.description || !form.description.length) return 'Description may not be empty';
+    if (!form.description || !form.description.length) return 'Description may not be empty';
   }
 };
 

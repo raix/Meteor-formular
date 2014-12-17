@@ -1,17 +1,18 @@
 Package.describe({
+  git: 'https://github.com/raix/Meteor-formular.git',
   name: 'raix:formular',
-  version: '0.0.0',
+  version: '0.0.1',
   summary: 'Adds Formular'
 });
 
-Package.on_use(function(api) {
+Package.onUse(function(api) {
   
-  api.versionsFrom && api.versionsFrom('METEOR@0.9.1');
+  api.versionsFrom && api.versionsFrom('1.0');
 
   api.use(['jquery'], 'client');
   api.export('formular');
 
-  api.add_files([
+  api.addFiles([
     'formular.js'
   ], 'client');
 

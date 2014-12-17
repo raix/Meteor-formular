@@ -1,7 +1,7 @@
 Package.describe({
   git: 'https://github.com/raix/Meteor-formular.git',
   name: 'raix:formular',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'Adds Formular'
 });
 
